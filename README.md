@@ -1,30 +1,31 @@
 # 🏨 Hotel Booking System (Laravel 10)
 
-نظام بسيط لإدارة حجوزات فندق باستخدام Laravel 10. يحتوي على لوحتين:
-- **لوحة المشرف (Admin):** لإدارة المستخدمين والحجوزات.
-- **لوحة المستخدم (User):** لحجز موعد، عرض وحذف الحجوزات السابقة.
+A simple hotel booking management system built with Laravel 10. It includes two panels:
+
+- **Admin Panel:** To manage users and bookings.
+- **User Panel:** To book appointments, view, and delete previous bookings.
 
 ---
 
-## 📌 المميزات
+## 📌 Features
 
-### 👤 المستخدم:
-- تسجيل دخول.
-- حجز موعد.
-- عرض جميع الحجوزات السابقة.
-- حذف أو تعديل الحجز.
+### 👤 User:
+- Login.
+- Book appointments.
+- View all previous bookings.
+- Edit or delete bookings.
 
-### 🛠️ المشرف:
-- تسجيل دخول مخصص.
-- إدارة المسؤولين (Admins).
-- متابعة وإدارة حجوزات المستخدمين.
+### 🛠️ Admin:
+- Dedicated login.
+- Manage admins.
+- Monitor and manage user bookings.
 
 ---
 
-## 🔧 التقنيات المستخدمة
+## 🔧 Technologies Used
 
 - Laravel 10
 - Laravel Breeze
-- AdminLTE (واجهة المشرف)
+- AdminLTE (Admin interface)
 - Blade Templates
 - MySQL
