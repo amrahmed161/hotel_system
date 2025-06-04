@@ -50,6 +50,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
             return view('admin.dashboard');
         })->name('dashboard');
                 Route::resource('admins', AdminController::class);
+                 Route::resource('bookings', BookingController::class);
+
     });
 });
 
